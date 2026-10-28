@@ -1,0 +1,6 @@
+{
+  "name": "Sol Autonomous Agent OS",
+  "description": "Enterprise-grade autonomous agent framework and operating system with dynamic intent routing, isolated write surfaces, and reviewer-class audit protocol.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

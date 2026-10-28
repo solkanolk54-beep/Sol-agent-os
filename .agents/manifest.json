@@ -1,0 +1,75 @@
+{
+  "org_name": "Sol Autonomous Agent OS",
+  "version": "1.0.0",
+  "protocol": "AGENTS.md-v1",
+  "departments": {
+    "executive": {
+      "id": "executive",
+      "name": "الإدارة التنفيذية (CEO Office)",
+      "description": "Strategic decisions, idea validation, and core bottleneck identification.",
+      "class": "producer",
+      "skills": {
+        "ceo-advisor": "./plugins/executive/skills/ceo-advisor.md",
+        "idea-validator": "./plugins/executive/skills/idea-validator.md",
+        "fundraising-pitch": "./plugins/executive/skills/fundraising-pitch.md"
+      }
+    },
+    "technology": {
+      "id": "technology",
+      "name": "الهندسة والتطوير (CTO / Dev)",
+      "description": "System architecture, API design, clean code, and engineering delivery.",
+      "class": "producer",
+      "skills": {
+        "api-design": "./plugins/technology/skills/api-design.md",
+        "architecture-design": "./plugins/technology/skills/architecture-design.md",
+        "clean-code": "./plugins/technology/skills/clean-code.md",
+        "systematic-debugging": "./plugins/technology/skills/systematic-debugging.md"
+      }
+    },
+    "security": {
+      "id": "security",
+      "name": "الأمن والتدقيق (CISO / Reviewer)",
+      "description": "Reviewer-class audits, vulnerability scans, OWASP compliance, and VETO power.",
+      "class": "reviewer",
+      "skills": {
+        "security-audit": "./plugins/security/skills/security-audit.md",
+        "threat-modeling": "./plugins/security/skills/threat-modeling.md",
+        "data-privacy": "./plugins/security/skills/data-privacy.md",
+        "vulnerability-scan": "./plugins/security/skills/vulnerability-scan.md"
+      }
+    },
+    "iot-geospatial": {
+      "id": "iot-geospatial",
+      "name": "الابتكار التقني والنظم المكانية (IoT & GIS / AI)",
+      "description": "Spatial data pipelines, PostGIS schemas, real-time IoT telemetry, and AI models.",
+      "class": "producer",
+      "skills": {
+        "geospatial-pipeline": "./plugins/iot-geospatial/skills/geospatial-pipeline.md",
+        "iot-telemetry-analytics": "./plugins/iot-geospatial/skills/iot-telemetry-analytics.md",
+        "ai-workflow": "./plugins/iot-geospatial/skills/ai-workflow.md"
+      }
+    },
+    "operations-finance": {
+      "id": "operations-finance",
+      "name": "العمليات والمالية (Ops & Finance)",
+      "description": "Unit economics, cost structures, supply chain tracking, and break-even modeling.",
+      "class": "producer",
+      "skills": {
+        "unit-economics": "./plugins/operations-finance/skills/unit-economics.md",
+        "cost-optimization": "./plugins/operations-finance/skills/cost-optimization.md",
+        "supply-chain-tracker": "./plugins/operations-finance/skills/supply-chain-tracker.md"
+      }
+    },
+    "growth-marketing": {
+      "id": "growth-marketing",
+      "name": "النمو والتسويق (Growth & Brand)",
+      "description": "Landing page CRO, value proposition clarity, demand generation, and brand identity.",
+      "class": "producer",
+      "skills": {
+        "landing-page-cro": "./plugins/growth-marketing/skills/landing-page-cro.md",
+        "demand-generation": "./plugins/growth-marketing/skills/demand-generation.md",
+        "brand-identity-eval": "./plugins/growth-marketing/skills/brand-identity-eval.md"
+      }
+    }
+  }
+}
